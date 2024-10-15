@@ -1,11 +1,11 @@
 "use client";
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import { Mail, Lock, AlertCircle, User, ArrowRight } from "lucide-react";
+import { AlertCircle, Lock, Mail } from "lucide-react";
 import Image from "next/image";
+import { useState } from "react";
 import Logo from "./logo.png";
 
 export default function ColorfulLoginPage() {
